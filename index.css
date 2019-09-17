@@ -1,0 +1,116 @@
+body {
+  background-image: url(http://www.sonyphotog.com/photos/globalmedicalco/18/85265.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 0vh;
+ 
+}
+
+
+h1 {
+  padding: 20px;
+  margin-bottom: 10px;
+  color: rgb(253, 4, 4);
+  background: rgb(22, 218, 253);
+  border: 3px solid rgb(0, 0, 0);
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: underline;
+  letter-spacing: 20px;
+  word-spacing: 10px;
+   
+}
+
+.box-set {
+  position: relative;
+  height: 400px;
+  background: transparent;
+  border: 2px solid blue;
+}
+
+.box {
+  position: fixed;
+  width: 150px;
+  height: 150px;
+  background: violet;
+  border: 2px solid black;
+}
+
+
+.box-1 {
+position: relative;
+bottom: 0;
+left: 0;
+}
+
+.box-1-image {
+width: 150px;
+height: 150px;
+}
+
+
+.box-2 {
+bottom: 20%;
+left: 16%;
+width: 120px;
+height: 120px;
+z-index: 2;
+background: transparent;
+}
+.box-2-image {
+width: 120px;
+height: 120px;
+}
+
+
+.box-3 {
+bottom: 45%;
+left: 5px;
+width: 120px;
+height: 120px;
+background: transparent;
+}
+.box-3-image {
+width: 120px;
+height: 120px;
+}
+
+
+.box-4 {
+bottom: 10%;
+left: 10%;
+width: 120px;
+height: 120px;
+z-index: 3;
+background: transparent;
+}
+.box-4-image {
+width: 120px;
+height: 120px;
+}
+
+.box-5 {
+position: relative;
+top: 60%;
+left: 30%;
+width: 1275px;
+height: 399px;
+background-color: transparent;
+font-size: 30px;
+color: aliceblue;
+border: 1px solid black;
+text-indent: 100px;
+line-height: 36px;
+}
+
+footer {
+text-align: center;
+width: 100%
+color: azure;
+border: 2px dotted red;
+background-color: blueviolet;
+margin-top: 25%;
+}
+
+
+  
